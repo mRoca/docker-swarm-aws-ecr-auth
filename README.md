@@ -38,3 +38,4 @@ By default, this image authenticates the swarm manager onto the AWS ECR for the 
 
 - The swarm stack must have been created with the https://docs.docker.com/docker-for-aws/ CloudFormation template.
 - The swarm managers must have the `AmazonEC2ContainerRegistryReadOnly` policy.
+- The services must have been created with `--with-registry-auth` option.
